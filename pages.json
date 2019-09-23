@@ -1,0 +1,38 @@
+{
+    "createdBy": "Redirector v3.2.2",
+    "createdAt": "2019-09-23T22:46:02.723Z",
+    "redirects": [
+        {
+            "description": "bbc",
+            "exampleUrl": "https://bbc.com",
+            "exampleResult": "http://127.0.0.1",
+            "error": null,
+            "includePattern": "*bbc*.com*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "http://127.0.0.1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "tiempo",
+            "exampleUrl": "http://tiempo.com.mx/",
+            "exampleResult": "http://127.0.0.1",
+            "error": null,
+            "includePattern": "*tiempo*.mx*",
+            "excludePattern": "",
+            "patternDesc": "tiempo",
+            "redirectUrl": "http://127.0.0.1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        }
+    ]
+}
